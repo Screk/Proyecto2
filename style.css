@@ -62,7 +62,7 @@ nav > input {
 
 .nav_div {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav_div > a {
@@ -80,7 +80,7 @@ nav > input {
 }
 
 .Compromisos > p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .Mi_cuenta {
@@ -91,6 +91,9 @@ nav > input {
 
 .Mi_cuenta > img {
     width: 25px;
+}
+.Mi_cuenta > p {
+    font-size: 15px;
 }
 
 
@@ -105,13 +108,14 @@ nav > input {
 }
 
 .Mi_cesta > p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .header_div {
     height: 30%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border: 1px solid rgb(131, 131, 131);
 }
 
@@ -123,4 +127,59 @@ nav > input {
 
 .header_div > button:hover {
     background-color: rgb(235, 235, 235);
+}
+
+main {
+    height: 85vh;
+    display:flex;
+    margin-top: 15vh;
+}
+
+#first-section {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+}
+
+#first-section-1article {
+    height: 18vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+#first-section-1article > form {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-section-2article {
+    height: 5vh;
+}
+
+#second-section {
+    width: 80vw;
+}
+
+#second-section > article {
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+}
+
+#second-section > article > div {
+    width: 10vw;
+}
+
+#price {
+    color: red;
+    font-size: 20px;
+}
+
+#disponibilidad {
+    color: rgb(135, 197, 43);
+
 }
