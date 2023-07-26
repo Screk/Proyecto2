@@ -40,34 +40,39 @@
                 <h3>Vendedores</h3>
                     <select id="opciones">
                         <option value="empty"></option>
-                        <option value="firstSeller">firstSeller</option>
-                        <option value="secondSeller">secondSeller</option>
-                        <option value="thirdSeller">thirdSeller</option>
-                        <option value="fourthSeller">fourthSeller</option>
+                        <option value="OCASIONIA">OCASIONIA</option>
+                        <option value="Vermegreen">Vermegreen</option>
+                        <option value="ART">ART</option>
+                        <option value="PcComponentes">PcComponentes</option>
                     </select>
-                    <div>
-                        <input type="checkbox" id="firstSeller">
-                        <label for="firstSeller">firstSeller</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="secondSeller">
-                        <label for="secondSeller">secondSeller</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="thirdSeller">
-                        <label for="thirdSeller">thirdSeller</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="fourthSeller">
-                        <label for="fourthSeller">PcComponentes</label>
-                    </div>
+                    <h4>Populares</h4>
+                    <form>
+                        <div>
+                            <input type="radio" id="firstSeller" name="seller" value="OCASIONIA">
+                            <label for="firstSeller">OCASIONIA</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="secondSeller" name="seller" value="Vermegreen">
+                            <label for="secondSeller">Vermegreen</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="thirdSeller" name="seller" value="ART">
+                            <label id="thirdSellerLabel" for="thirdSeller">ART</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="fourthSeller" name="seller" value="PcComponentes">
+                            <label id="fourthSellerLabel" for="fourthSeller">PcComponentes</label>
+                        </div>
+                      </form>
+                      
             </article>
             <article id="first-section-2article">
+                <h4>Precios</h4>
                 <input id="first-section-inputNumber" type="number"></input>
                 <button class="button">Buscar</button>
             </article>
             <article id="first-section-3article">
-                <input type="reset">
+                <input id= 'resetButton'type="reset">
             </article>
         </section>
         <section id="second-section">
