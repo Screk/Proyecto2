@@ -175,8 +175,8 @@ if (typeof document !== "undefined") {
   const secondSectionArticle = document.createElement("article");
   
   function onEnterPressed(event) {
-    if (event.key === 13){
-      const buscandoPorNombre = products.filter(product => product.name.includes(event.target.value))
+    if (event.keyCode === 13){
+      const buscandoPorNombre = products.filter(product => product.name.toLowerCase().includes(event.target.value))
       secondSectionArticle.innerHTML = "";
       buscandoPorNombre.forEach(product => {
         let template = `
